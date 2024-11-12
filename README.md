@@ -1,4 +1,4 @@
-# 🚀 Rafael Guedes - Minha Jornada em Ruby
+# 🚀 Minha Jornada em Ruby
 
 ![Ruby Logo](https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg)
 
@@ -32,5 +32,3 @@ Siga minha evolução e sinta-se à vontade para sugerir melhorias, ideias, ou d
 ---
 
 Agradeço por acompanhar meu desenvolvimento! Vamos codar! 🚀✨
-
-**Rafael Guedes**
