@@ -28,6 +28,7 @@ Siga minha evolução e sinta-se à vontade para sugerir melhorias, ideias, ou d
 ### 📬 Vamos Conectar!
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rafael%20Guedes-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/rafael-guedes-612379284/)  
 [![GitHub](https://img.shields.io/badge/GitHub-Rafael%20Guedes-lightgrey?style=flat&logo=github)](https://github.com/Eluedes)
+[![Discord](https://img.shields.io/badge/Discord-eluedes-5865F2?style=flat&logo=discord)](https://discord.com) 
 
 ---
 
