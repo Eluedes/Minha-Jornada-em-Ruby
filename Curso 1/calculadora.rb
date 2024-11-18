@@ -9,13 +9,13 @@ loop do
   puts "2 - Subtração."
   puts "3 - Multiplicação."
   puts "4 - Divisão."
-  puts "5 - Sair."
+  puts "0 - Sair."
 
   # Lê a escolha do usuário
   escolha = gets.chomp.to_i
 
   # Se o usuário escolher a opção 5 (sair), encerra o loop
-  break if escolha == 5
+  break if escolha == 0
 
   # Solicita os dois números para a operação
   puts "Qual o primeiro número?"
