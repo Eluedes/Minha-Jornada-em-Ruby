@@ -28,33 +28,27 @@ puts "Lista após alteração: #{frutas}"
 puts "Número de frutas na lista: #{frutas.length}"  # Obtém o número de frutas
 puts "A lista de frutas está vazia? #{frutas.empty?}"  # Verifica se a lista está vazia
 
-# 7. Iterando sobre as frutas com `each`
+# 7. Acessando partes de uma string no array (por índice e intervalo)
+puts "Parte da primeira fruta (índice 1 a 4): #{frutas[0][1..4]}"  # Acessa parte da string (exemplo: "Maçã" -> "açã")
+
+# 8. Acessando o primeiro e último elementos
+puts "Primeira fruta da lista: #{frutas.first}"  # Acessa o primeiro elemento ("Kiwi")
+puts "Última fruta da lista: #{frutas.last}"    # Acessa o último elemento ("Abacaxi")
+
+# 9. Usando `map` para criar uma nova lista de frutas
+nova_lista = frutas.map { |fruta| "#{fruta} Fresca" }  # Adiciona "Fresca" a cada fruta
+puts "Nova lista com frutas frescas: #{nova_lista}"
+
+# 10. Verificando a presença de uma fruta na lista
+puts "A lista contém 'Manga'? #{frutas.include?("Manga")}"
+puts "A lista contém 'Melancia'? #{frutas.include?("Melancia")}"
+
+# 11. Inserindo elementos em uma posição específica
+frutas.insert(2, "Melancia")  # Insere "Melancia" no índice 2
+puts "Lista após inserção de 'Melancia': #{frutas}"
+
+# 12. Iterando sobre as frutas com `each`
 puts "Iterando sobre a lista de frutas com `each`:"
 frutas.each do |fruta|
   puts fruta
 end
-
-# 8. Usando `map` para criar uma nova lista de frutas
-nova_lista = frutas.map { |fruta| "#{fruta} Fresca" }  # Adiciona "Fresca" a cada fruta
-puts "Nova lista com frutas frescas: #{nova_lista}"
-
-# 9. Ordenando e revertendo a lista
-lista_ordenada = frutas.sort  # Ordena a lista de frutas
-lista_invertida = frutas.reverse  # Inverte a lista de frutas
-puts "Lista ordenada: #{lista_ordenada}"
-puts "Lista invertida: #{lista_invertida}"
-
-# 10. Filtrando frutas
-frutas_citrus = frutas.select { |fruta| fruta == "Laranja" || fruta == "Limão" }  # Seleciona frutas cítricas
-frutas_nao_citrus = frutas.reject { |fruta| fruta == "Laranja" || fruta == "Limão" }  # Seleciona frutas não cítricas
-puts "Frutas cítricas: #{frutas_citrus}"
-puts "Frutas não cítricas: #{frutas_nao_citrus}"
-
-# 11. Concatenando listas de frutas
-lista_extra = ["Cabeludinha", "Jabuticaba"]
-lista_completa = frutas + lista_extra  # Junta as duas listas
-puts "Lista completa de frutas: #{lista_completa}"
-
-# 12. Verificando a presença de uma fruta na lista
-puts "A lista contém 'Manga'? #{frutas.include?("Manga")}"
-puts "A lista contém 'Melancia'? #{frutas.include?("Melancia")}"
