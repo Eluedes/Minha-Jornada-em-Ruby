@@ -1,1 +1,3 @@
-puts "Olá mundo em ruby!"
+nome = Rafael
+puts "Bem Vindo ao Mundo Ruby #{nome}!"
+puts 'Bem Vindo ao Mundo Ruby Rafael!'
