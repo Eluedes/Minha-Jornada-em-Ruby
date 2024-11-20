@@ -10,11 +10,16 @@ end
 
 # O `unless` executará o bloco de código somente se a condição (`logado`) for falsa.
 
- 
-=begin 
-Aqui, a mensagem será exibida apenas se logado for false, tornando o código mais intuitivo para ler, pois expressa diretamente a intenção de "a menos que logado, faça algo".
 
-Conclusão
-O unless é uma forma elegante de simplificar condições negativas, ajudando na legibilidade do código quando bem aplicado.
-=end
- #Esse exemplo não é meu, é sim de uma pesquisa, estou guardando no meu repo para afins de lembrar quando eu irei usar o unless
+# Definindo a variável idade com o valor 16
+idade = 16
+
+# A estrutura 'unless' verifica se a condição é falsa
+# Se a idade não for maior ou igual a 18, executa o código abaixo
+unless idade >= 18
+  # Se a condição 'idade >= 18' for falsa, exibe esta mensagem
+  puts "Você não é maior de idade."
+else
+  # Se a condição 'idade >= 18' for verdadeira, executa o código abaixo
+  puts "Você é maior de idade."
+end
