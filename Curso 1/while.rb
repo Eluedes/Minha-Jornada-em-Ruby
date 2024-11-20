@@ -1,8 +1,8 @@
 # Inicializa a variável `num` com o valor 1
 num = 1
 
-# Inicia um loop que será executado enquanto o valor de `num` for menor que 200
-while num < 200
+# Inicia um loop que será executado enquanto o valor de `num` for menor que 5
+while num < 5
   # Exibe o valor atual de `num`
   puts num
   
