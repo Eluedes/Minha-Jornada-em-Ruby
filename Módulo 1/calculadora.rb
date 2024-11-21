@@ -14,7 +14,7 @@ loop do
   # Lê a escolha do usuário
   escolha = gets.chomp.to_i
 
-  # Se o usuário escolher a opção 5 (sair), encerra o loop
+  # Se o usuário escolher a opção 0 (sair), encerra o loop
   break if escolha == 0
 
   # Solicita os dois números para a operação
